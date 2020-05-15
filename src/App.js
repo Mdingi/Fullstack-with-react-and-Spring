@@ -4,12 +4,16 @@ import './App.css';
 import FirstComponent from './Components/learning-examples/FirstComponent';
 import SecondComponent from './Components/learning-examples/SecondComponent';
 import Counter from './Components/CounterComponent/Counter';
+import TodoApplication from './Components/todo/TodoApplication';
+import './bootstrap.css';
+
 
 class App extends Component{
   render(){
     return(
       <div className="App">
-      <Counter/>
+      <TodoApplication/>
+      {/*<Counter/>*/}
       </div>
     )
   }
